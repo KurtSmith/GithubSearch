@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searchbar input length 1`] = `
+<div
+  className="input-group"
+  classlabel="mb-3"
+>
+  <input
+    aria-describedby="RepoSearch"
+    aria-label="RepoSearch"
+    className="form-control"
+    data-testid="searchInput"
+    maxLength="50"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Enter repository name and click the search icon"
+    value=""
+  />
+  <button
+    className="btn btn-light btn btn-primary"
+    data-testid="searchButton"
+    disabled={true}
+    id="search"
+    onClick={[Function]}
+    type="button"
+  >
+    <img
+      alt="Search Repos"
+      src="search.svg"
+    />
+  </button>
+</div>
+`;

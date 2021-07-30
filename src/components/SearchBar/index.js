@@ -35,13 +35,14 @@ export default function SearchBar(props) {
     return (
         <InputGroup classlabel="mb-3">
             <FormControl
+                data-testid="searchInput"
                 placeholder="Enter repository name and click the search icon"
                 aria-label="RepoSearch"
                 aria-describedby="RepoSearch"
                 value={state.currentTopic}
                 onChange={inputChanged}
                 onKeyDown={handleKeyDown}
-                maxLength='25'
+                maxLength='50'
             />
             <Button onClick={getResults} data-testid="searchButton" className="btn btn-light" id="search" disabled={state.loading || !searchEnabled}>
                 <img src={logo} alt="Search Repos" />

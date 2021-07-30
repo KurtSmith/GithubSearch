@@ -46,7 +46,7 @@ export default function RefineSearch() {
     }
     return (
       <nav>
-        <div className='resultFilter'>
+        <div className='resultFilter' data-testid="sortResults">
           <Select 
             className='multi-select'
             id='Sort'

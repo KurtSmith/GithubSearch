@@ -16,7 +16,7 @@ const NoResults= () => {
     )
 }
 
-export default function Main(props) {
+export default function Main() {
     const [state] = useContext(GithubContext);
 
     return (
