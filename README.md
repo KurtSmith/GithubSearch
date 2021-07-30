@@ -8,6 +8,9 @@ Click a link to be taken to the detail page:
 
 ![image](https://user-images.githubusercontent.com/6589669/127691894-22ea9ec5-de43-40da-a362-11e023997fb8.png)
 
+Paging is supported(the Github search API only supports paging up to 1000 pages)
+
+![image](https://user-images.githubusercontent.com/6589669/127692318-0d919afc-67c2-414d-9eb2-43964845ae4b.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
