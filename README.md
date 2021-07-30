@@ -44,7 +44,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Room for improvement
-
+* Bullet list
 Debounce input on onChange handlers to reduce re-renders 
 Split state into more manageable chunks to reduce re-renders(combineReducers)
 Allow user to choose a theme which is not my current "loud and proud" theme.
