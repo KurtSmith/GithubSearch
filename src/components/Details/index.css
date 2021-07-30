@@ -1,0 +1,58 @@
+#details{
+    display:flex;
+}
+.detailCard{
+    flex-direction: column;
+}
+.detailImg{
+    width:15%;
+    margin-right:1%;
+}
+.titleDetail{
+    background-color: black;
+    color:white;
+}
+.titleDetail .btn{
+    height:50%;
+    align-self: center;
+    background-color: white;
+    color:black;
+}
+.subDetailCard{
+    flex-direction: column;
+}
+.cardBody{
+    flex:0;
+}
+.detailCard .card-header{
+  justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+.subDetailCard .card-header{
+    background-color: #dad4ca;
+    color: black;
+    border: 3px solid black;
+    flex-direction: column;
+    display: flex;
+    font-weight: bold;
+}
+.subDetailCard .card-text{
+    font-weight: bold;
+    color:white;
+    flex-direction: column;
+    display: flex;
+ 
+}
+.subDetailCard .card-body{
+    background-color: black;
+}
+.badge{
+    color:black;
+}
+.detailSection{
+    flex:1;
+}
+.testTitle{
+    font-size:18pt;
+}

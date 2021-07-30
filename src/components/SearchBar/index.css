@@ -1,0 +1,25 @@
+.btn-light, .btn{
+    background-color: orange;
+    outline: none;
+  }
+  .btn-check:focus+.btn-light, .btn-primary:focus {
+    color: #fff;
+    background-color: #D5A021 !important;
+    border-color: #D5A021 !important;
+    box-shadow: 0 0 0 0.2rem rgba(213,160,33, 0.5) !important;
+  }
+  .btn-primary:hover {
+    background-color: #D5A021;
+    border-color: #D5A021;
+  }
+  .btn-primary:hover {
+    background-color: rgb(206, 136, 6);
+  }
+  .searchBox { 
+  border: none;
+  font-size: 20px;
+  }
+  
+  .inputField { 
+      margin: 5px;
+  }

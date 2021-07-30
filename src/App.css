@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box; 
+}
+header, footer {
+  background: rgb(16, 29, 58);
+  display:flex;
+  justify-content:left;
+  
+}
+header, footer, article{
+  padding: 1em;
+}
+input{
+  flex:1;
+}
+label{
+  color:white;
+  max-width: 50%;
+}

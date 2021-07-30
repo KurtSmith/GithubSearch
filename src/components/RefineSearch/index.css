@@ -1,0 +1,19 @@
+nav {
+    display:flex;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #D5A021;
+    box-shadow: 0 0 10px #ddd;
+    padding:1em;
+    justify-content: center;
+  }
+  .multi-select{
+    flex:1 1 100%;
+    border-color: orange;
+  }
+  .multi-select:hover{
+    border-color: orange;
+  }
+  .resultFilter{
+    display: flex;
+    flex: 0 1 100%;
+  }
