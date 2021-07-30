@@ -1,9 +1,12 @@
 # Getting Started with Github Search
 
-Simply type in a search term and press enter or click the search icon
+Simply type in a search term and press enter or click the search icon:
 
 ![image](https://user-images.githubusercontent.com/6589669/127691626-0229bf22-0049-4ff3-af50-96b063940e0f.png)
 
+Click a link to be taken to the detail page:
+
+![image](https://user-images.githubusercontent.com/6589669/127691894-22ea9ec5-de43-40da-a362-11e023997fb8.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
