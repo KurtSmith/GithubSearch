@@ -47,18 +47,19 @@ export default function RefineSearch() {
     return (
       <nav>
         <div className='resultFilter'>
-          <Select className='multi-select'
+          <Select 
+            className='multi-select'
             id='Sort'
             ref={selectStarsInputRef}
             closeMenuOnSelect={true}
             options={sort}
             styles={customStyles}
             onChange={getResults}
-            className='multi-select'
             placeholder='Sort results'
             defaultValue={sort[0]}
           />
-          <Select className='multi-select'
+          <Select 
+            className='multi-select'
             id='Filter'
             ref={selectLangInputRef}
             closeMenuOnSelect={true}
@@ -66,7 +67,6 @@ export default function RefineSearch() {
             options={languages}
             styles={customStyles}
             onChange={getResults}
-            className='multi-select'
             placeholder='Filter results'
           />
         </div>

@@ -1,9 +1,4 @@
 export const customStyles = {
-    option: (provided, state) => ({
-      ...provided,
-      borderBottom: '1px dotted pink',
-      color: state.isSelected ? 'red' : 'blue',
-    }),
     control: base => ({
       ...base,
       "&:hover": {

@@ -1,12 +1,12 @@
 import {Card} from 'react-bootstrap';
+import './index.css'
 
 export default function ErrorFallback({error, resetErrorBoundary}) {
     return (
        <Card
        bg='Danger'
        text='dark'
-       style={{ width: '18rem' }}
-       className="mb-2"
+       className="error"
      >
        <Card.Header>Uh oh, something is awry.</Card.Header>
        <Card.Body>

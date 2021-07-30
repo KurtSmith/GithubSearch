@@ -9,6 +9,7 @@ nav {
   .multi-select{
     flex:1 1 100%;
     border-color: orange;
+    margin-right:1%;
   }
   .multi-select:hover{
     border-color: orange;
