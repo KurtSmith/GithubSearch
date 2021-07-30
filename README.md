@@ -46,7 +46,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Room for improvement
 * Bullet list
 Debounce input on onChange handlers to reduce re-renders 
+* Bullet list
 Split state into more manageable chunks to reduce re-renders(combineReducers)
+* Bullet list
 Allow user to choose a theme which is not my current "loud and proud" theme.
 Allow user to add multiple topics to refine search
 Allow user to control page size
