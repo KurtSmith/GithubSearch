@@ -12,6 +12,11 @@ Paging is supported(the Github search API only supports paging up to 1000 pages)
 
 ![image](https://user-images.githubusercontent.com/6589669/127692318-0d919afc-67c2-414d-9eb2-43964845ae4b.png)
 
+You can refine your search by selecting either "Best Match" or "Star Rating". You can also filter by the languages you are interested in.
+
+![image](https://user-images.githubusercontent.com/6589669/127692636-1f452558-acae-4f75-be6b-214b72b9ca49.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
