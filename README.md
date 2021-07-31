@@ -49,5 +49,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 * Allow user to choose a theme which is not my current "loud and proud" theme.
 * Allow user to add multiple topics to refine search
 * Allow user to control page size
+* Mock API call in jest tests to get rid of test warnings and avoid calling the Github API directly.
 
 
