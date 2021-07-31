@@ -9,11 +9,11 @@ const retrieveResults = (dispatch, topic, star, lang, page) => {
         .then(function (response) {
             // the github search api only supports fetching up to 1000 pages so 
             // act accordingly
-            const resultCount = Math.ceil(response.data.total_count / 30);
+            const resultCount = response.data.total_count > 1000 ? 1000 : response.data.total_count;
             dispatch(addResults(response.data.items,
                 response.data.total_count,
                 response.data.total_count === 0,
-                resultCount > 1000 ? 1000 : resultCount,
+                Math.ceil(resultCount/30),
                 page))
         })
         .catch((reason) => {
